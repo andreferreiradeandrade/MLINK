@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #120037;
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  
+  .tit{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+
+
+  /* --------------Outra parada -----------------------*/
+
+  .fieldset{
+    width: 600px;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .atualizar_button{
+    font-family: Montserrat;
+    width: 250px;
+    height: 40px;
+    align-self: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    background-color: #1E849D;
+    color: white;
+    margin-top: 30px;
+  }
+
+  label{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .labelInputNome{
+    margin-right: 60px;
+  }
+
+  .labelInputEmail{
+    margin-right: 32px;
+  }
+
+
+  .labelInputTelefone{
+    margin-right: 57px;
+  }
+
+  .labelInputSobre{
+    margin-right: 38px;
+  }
+
+  .labelInputSenha{
+    margin-right: 36px;
+  }
+
+  legend{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+
+  input{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+  }
+
+
+  

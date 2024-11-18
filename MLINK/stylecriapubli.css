@@ -1,0 +1,158 @@
+body {
+    background-color: #120037;
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin-top: 180px;
+  }
+
+
+
+/* -------Menu lateral -------*/
+
+.cont_menu_lateral {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    position: fixed;
+  }
+  
+  .cont_menu_lateral_bot {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 1000px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
+  .cont_menu_lateral_botimg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .cont_menu_lateral_perfil {
+    background-color: white;
+    border-radius: 1000px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+  }
+
+
+
+
+
+  /*----- Publi --------  */
+
+
+
+
+
+  .cont {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    margin-left: 60px;
+  }
+  
+  .cont_feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-left: 120px;
+  }
+  
+  .cont_feed_publi {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cont_feed_publi_dados {
+    background-color: #4a475d;
+    width: 1000px;
+    height: 80px;
+    align-self: center;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 40px;
+    display: flex;
+  }
+
+  .input_legenda{
+    border: none;
+    height: 20px;
+    outline: none;
+    font-size: 15px;
+    margin-left: 10px;
+    width: 920px;
+  }
+
+  .yourpubli{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .usu_info{
+    font-family: 'Montserrat';
+    margin-left: 10px;
+    color: white;
+  }
+  
+  .img_category_back{
+    background-color: #6523a8;
+    border-radius: 1000px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .img_category {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  
+  .cont_feed_publi_text {
+    background-color: white;
+    width: 1000px;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 40px;
+  }
+
+  .publi_text{
+    font-family: 'Arial';
+    margin-left: 10px;
+  }
+  
+  .space_cont_bar {
+    height: 200px;
+  }
+
+  .publicar{
+    border: none;
+    font-family: 'Montserrat';
+    width: 190px;
+    height: 40px;
+    border-radius: 12px;
+    justify-self: center;
+    display: flex;
+    background-color: #1e849d;
+    color: white;
+    font-weight: bold;
+  }

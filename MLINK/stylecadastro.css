@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #120037;
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin-top: 80px;
+  }
+  
+  
+  .tit {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  
+  
+  
+  
+  
+  /*formulario campos básicos de texto*/
+  
+  
+  
+  
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formalign {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formulario_lab {
+    font-family: Montserrat;
+  }
+  
+  .formulario_inp {
+    border-bottom: 1px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 370px;
+    height: 18px;
+    background: none;
+    outline: none;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  /*formulario categoria*/
+  
+  
+  
+  
+  
+  
+  .formulario_lab_cat_op {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .formulario_inp_cat {
+    margin-right: 20px;
+  }
+  
+  .cat_space {
+    margin-bottom: 20px;
+  }
+  
+  .catrad {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .cadastrar {
+    font-family: Montserrat;
+    width: 370px;
+    height: 40px;
+    align-self: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    background-color: #1E849D;
+    color: white;
+    margin-top: 30px;
+  }
