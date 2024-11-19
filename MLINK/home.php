@@ -9,6 +9,7 @@
     session_start();
     include_once('conexao.php');
     if (!isset($_SESSION['id_usu'])) {
+        echo "<script>location.href = 'login.php'</script>";
         die('Você precisa estar logado para acessar');
     }
 
